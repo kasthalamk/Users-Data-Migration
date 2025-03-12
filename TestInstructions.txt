@@ -12,7 +12,7 @@
 3. **Navigate to the Script Directory**:
    - Use the `cd` command to navigate to the directory where the `MigrateUserProfile.ps1` script is located:
      ```
-     cd "C:\Users\Mohan Kasthala\Desktop\User Data Migration"
+     cd "C:\Users\%profile%\Desktop\User Data Migration"
      ```
 
 4. **Run the Script**:
