@@ -1,0 +1,37 @@
+# Instructions to Test the Updated MigrateUserProfile.ps1 Script
+
+1. **Open PowerShell as Administrator**:
+   - Right-click on the Start menu and select "Windows PowerShell (Admin)" or "Windows Terminal (Admin)".
+
+2. **Set Execution Policy** (if not already set):
+   - Run the following command to allow script execution:
+     ```
+     Set-ExecutionPolicy Unrestricted -Scope Process -Force
+     ```
+
+3. **Navigate to the Script Directory**:
+   - Use the `cd` command to navigate to the directory where the `MigrateUserProfile.ps1` script is located:
+     ```
+     cd "C:\Users\Mohan Kasthala\Desktop\User Data Migration"
+     ```
+
+4. **Run the Script**:
+   - Execute the script by typing:
+     ```
+     .\MigrateUserProfile.ps1
+     ```
+
+5. **Follow the Prompts**:
+   - When prompted, select the old user profile directory.
+   - Then select the new user profile directory.
+
+6. **Observe the Output**:
+   - Watch for messages indicating the progress of the migration, including any large files detected, files moved, skipped directories, and a summary at the end.
+
+7. **Verify the Migration**:
+   - Check the new user profile directory to ensure that the files have been copied successfully.
+
+8. **Review the Log File**:
+   - A log file named `MigrationLog.txt` will be created in the new profile directory. Review this file for detailed information about the migration process.
+
+If you encounter any issues or need further assistance, please let me know.
